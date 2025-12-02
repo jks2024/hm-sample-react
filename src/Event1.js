@@ -12,7 +12,7 @@ const DropDown = () => {
     if (e.target.checked) {
       setAnimal([...animal, e.target.value]); // 기존 배열을 풀어서 넣고, check된 새로운 값을 추가
     } else {
-      setAnimal(animal.filter((e) => e !== e.target.value)); // 기존 배열에서 지금 들어온 값을 제외해서 다시 집어 넣음
+      setAnimal(animal.filter((item) => item !== e.target.value)); // 기존 배열에서 지금 들어온 값을 제외해서 다시 집어 넣음
     }
   };
 

@@ -51,3 +51,13 @@
   color: orange;
   font-size: 1.4em;
 }
+
+table {
+  border-collapse: collapse;
+  padding: 4px 8px;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+}
