@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: gray;
+}
+
+.title-name {
+  color: royalblue;
+  font-size: 2em;
+}
+.content-name {
+  color: orange;
+  font-size: 1.4em;
+}
