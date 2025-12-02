@@ -7,11 +7,12 @@ import InputEvent from "./InputEvent";
 import SingUp from "./SignUp";
 import DropDown from "./Event1";
 import TableMap from "./TableMap";
+import GuestBook from "./GuestBook";
 
 function App() {
   return (
     <>
-      <TableMap />
+      <GuestBook />
     </>
   );
 }
