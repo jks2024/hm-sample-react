@@ -8,11 +8,13 @@ import SingUp from "./SignUp";
 import DropDown from "./Event1";
 import TableMap from "./TableMap";
 import GuestBook from "./GuestBook";
+import InfoEffect from "./InfoEffect";
+import Average from "./MemoAvg";
 
 function App() {
   return (
     <>
-      <GuestBook />
+      <Average />
     </>
   );
 }

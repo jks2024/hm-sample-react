@@ -17,7 +17,11 @@ const TableMap = () => {
   useEffect(() => {
     // 대부분의 경우 여기서 비동기 통신으로 서버에 대한 요청과 응답을 받음
     setMembers(datas);
-  }, []); // [] 의존성 배열이라 부르고, 마인그 시 동작
+  }, []); // [] 의존성 배열이라 부르고, 마운트 시 동작
+
+  const tableRowClick = (item) => {
+    console.log(item);
+  };
 
   return (
     <table>
@@ -28,7 +32,7 @@ const TableMap = () => {
       </tr>
       {members &&
         members.map((member) => (
-          <tr key={member.email}>
+          <tr key={member.email} onClick={() => tableRowClick(member)}>
             <td>{member.email}</td>
             <td>{member.name}</td>
             <td>{member.age}</td>
