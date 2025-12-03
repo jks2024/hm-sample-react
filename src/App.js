@@ -10,11 +10,12 @@ import TableMap from "./TableMap";
 import GuestBook from "./GuestBook";
 import InfoEffect from "./InfoEffect";
 import Average from "./MemoAvg";
+import ExchangeRateCalculator from "./ExchangeCalc";
 
 function App() {
   return (
     <>
-      <Average />
+      <ExchangeRateCalculator />
     </>
   );
 }
