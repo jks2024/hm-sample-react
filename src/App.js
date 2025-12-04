@@ -11,11 +11,13 @@ import GuestBook from "./GuestBook";
 import InfoEffect from "./InfoEffect";
 import Average from "./MemoAvg";
 import ExchangeRateCalculator from "./ExchangeCalc";
+import Styled from "./Styled";
+import StyledEx from "./StyledEx";
 
 function App() {
   return (
     <>
-      <ExchangeRateCalculator />
+      <StyledEx />
     </>
   );
 }
