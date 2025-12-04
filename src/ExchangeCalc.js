@@ -122,14 +122,11 @@ function ExchangeRateCalculator() {
   // --- useEffect: 데이터 가져오기 ---
   useEffect(() => {
     console.log("📡 [Effect] 환율 데이터 가져오는 중...");
-    setTimeout(() => {
-      setRates({
-        USD: 1465,
-        JPY: 940,
-        EUR: 1400,
-      });
-      console.log("✅ [Effect] 데이터 로딩 완료!");
-    }, 500);
+    setRates({
+      USD: 1465,
+      JPY: 940,
+      EUR: 1400,
+    });
   }, []);
 
   // --- useMemo: 계산 최적화 ---
